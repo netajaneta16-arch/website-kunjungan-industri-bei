@@ -1,7 +1,7 @@
 WEBSITE KUNJUNGAN INDUSTRI BEI
 
 Website ini adalah situs statis dan dapat dijalankan langsung dengan membuka
-index.html. Semua aset gambar berada di folder assets.
+index.html. Semua aset gambar dan video berada di folder assets.
 
 DEPLOY KE GITHUB PAGES
 
@@ -21,7 +21,7 @@ Jangan menambahkan access token atau rahasia ke file website. Jika token
 pernah dibagikan atau tertempel di chat, segera revoke token tersebut di
 pengaturan Developer settings > Personal access tokens GitHub.
 
-Catatan:
-Bagian video masih berupa placeholder karena file vlog 90 detik belum
-ditambahkan. Untuk menampilkan video, tambahkan file ke assets dan ubah
-bagian video-placeholder di index.html menjadi elemen video HTML.
+Video vlog:
+Bagian Video Vlog memutar file MP4
+assets/WhatsApp Video 2026-11-24 at 08.13.26.mp4 menggunakan kontrol HTML.
+Jika nama atau lokasi file berubah, perbarui source video di index.html.
