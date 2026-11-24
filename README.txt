@@ -8,10 +8,9 @@ DEPLOY KE GITHUB PAGES
 1. Buat repositori GitHub baru. Agar dapat diakses semua orang, pilih Public.
 2. Unggah seluruh isi folder ini ke branch main, termasuk folder
    .github/workflows.
-3. Buka Settings > Pages pada repositori, lalu pilih GitHub Actions sebagai
-   Build and deployment source.
-4. Buka tab Actions dan tunggu workflow "Deploy to GitHub Pages" berhasil.
-5. URL publik situs akan ditampilkan di Settings > Pages dan ringkasan workflow.
+3. Buka tab Actions dan tunggu workflow "Deploy to GitHub Pages" berhasil.
+   Workflow akan mengaktifkan GitHub Pages dan menerbitkan file situs.
+4. URL publik situs akan ditampilkan di Settings > Pages dan ringkasan workflow.
 
 Setiap push ke branch main atau master akan memublikasikan ulang situs.
 Workflow juga dapat dijalankan secara manual dari tab Actions.
